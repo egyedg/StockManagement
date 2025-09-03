@@ -1,0 +1,48 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A86D5F8D-5D7C-4C3A-BD0F-3A4F4E6D9C1A}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.override.yml = docker-compose.override.yml
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StockManagement.API", "StockManagement.API\StockManagement.API.csproj", "{2C8A4F3A-1D7B-4E89-9A6F-7B3A5D8C9E1F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StockManagement.Infrastructure", "StockManagement.Infrastructure\StockManagement.Infrastructure.csproj", "{3D9B6F4A-2E8C-4F79-9B7A-6C3A5D8E9F1C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StockManagement.AppHost", "StockManagement.AppHost\StockManagement.AppHost.csproj", "{4EAC7F5B-3F9D-4D89-8A7B-7D4B6E9F8A1D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StockManagement.ServiceDefaults", "StockManagement.ServiceDefaults\StockManagement.ServiceDefaults.csproj", "{5FBD8G6C-4G0E-4E90-9C8C-8E5C7F9A8B2E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StockManagement.WPFClient", "StockManagement.WPFClient\StockManagement.WPFClient.csproj", "{6GCE9H7D-5H1F-5F01-9D9D-9F6D8H0B9C3F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C8A4F3A-1D7B-4E89-9A6F-7B3A5D8C9E1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C8A4F3A-1D7B-4E89-9A6F-7B3A5D8C9E1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C8A4F3A-1D7B-4E89-9A6F-7B3A5D8C9E1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C8A4F3A-1D7B-4E89-9A6F-7B3A5D8C9E1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D9B6F4A-2E8C-4F79-9B7A-6C3A5D8E9F1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D9B6F4A-2E8C-4F79-9B7A-6C3A5D8E9F1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D9B6F4A-2E8C-4F79-9B7A-6C3A5D8E9F1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D9B6F4A-2E8C-4F79-9B7A-6C3A5D8E9F1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EAC7F5B-3F9D-4D89-8A7B-7D4B6E9F8A1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EAC7F5B-3F9D-4D89-8A7B-7D4B6E9F8A1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EAC7F5B-3F9D-4D89-8A7B-7D4B6E9F8A1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EAC7F5B-3F9D-4D89-8A7B-7D4B6E9F8A1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FBD8G6C-4G0E-4E90-9C8C-8E5C7F9A8B2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FBD8G6C-4G0E-4E90-9C8C-8E5C7F9A8B2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FBD8G6C-4G0E-4E90-9C8C-8E5C7F9A8B2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FBD8G6C-4G0E-4E90-9C8C-8E5C7F9A8B2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6GCE9H7D-5H1F-5F01-9D9D-9F6D8H0B9C3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6GCE9H7D-5H1F-5F01-9D9D-9F6D8H0B9C3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6GCE9H7D-5H1F-5F01-9D9D-9F6D8H0B9C3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6GCE9H7D-5H1F-5F01-9D9D-9F6D8H0B9C3F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
