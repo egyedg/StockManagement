@@ -1,10 +1,10 @@
 # Stock Management System
 
-A .NET 8 solution for managing product stock with MongoDB for operational data and PostgreSQL for reporting.
+A .NET solution for managing product stock with MongoDB for operational data and PostgreSQL for reporting.
 
 ## Prerequisites
 
-- .NET 8 SDK
+- .NET 9 SDK
 - Docker Desktop
 
 ## Running the Application
